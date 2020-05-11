@@ -1,0 +1,2011 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2019/11/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2019/11/untitled-ontology-8">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2019/11/untitled-ontology-8#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="ssn" IRI="http://www.w3.org/ns/ssn/"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="sosa" IRI="http://www.w3.org/ns/sosa/"/>
+    <Prefix name="myPref" IRI="http://www.semanticweb.org/user/ontologies/2019/11/untitled-ontology-8"/>
+    <Import>http://www.w3.org/ns/ssn/</Import>
+    <Declaration>
+        <Class IRI="#Cashier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cleaner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Critical_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MuseumExhibit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MuseumRoom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Painting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#measurment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mobileApp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#notification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#visiting"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sosa:ActuatableProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sosa:Actuator"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sosa:FeatureOfInterest"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sosa:ObservableProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sosa:Procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sosa:Result"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sosa:Sensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ActuatorActivates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ActuatorLocatedInRoom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CashierWorksInReception"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CriticalEventMadeBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ExhibitHasGuide"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GuideIsResponsibleForExhibit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GuideIsResponsibleForRoom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GuideResponsibleForExhibit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#InfrormationAbout"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsCriticalEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#MobileReceiveNotesAbout"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PaintingIsLocatedInRoom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ReceptionHasCashier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RomHasExhibit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RoomHasActuator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RoomHasGuide"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RoomHasPainting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RoomHasSecurity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RoomHasStaf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RoomHasStatues"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RoomHasVisits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SecurityIsResponsibleForRoom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SensorLocatedInRoom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#StatuesIsLocatedInRoom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#WasIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exhibitLocatedRoom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMobileApp"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_made_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#makes_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mobileAppBelongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#roomHasSensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#saw"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#switchesOff"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#turnsOff"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#turnsOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#visitWasIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wasΑttendedΒy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="sosa:actsOnProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="sosa:hasFeatureOfInterest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="sosa:hasResult"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="sosa:isResultOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="sosa:madeActuation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="sosa:madeBySensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="sosa:madeObservation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="sosa:observedProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="sosa:observes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="sosa:usedProcedure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mobilePhone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#saw_the_exhibit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#surname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temperature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#test"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="sosa:hasSimpleResult"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AirConditioner002operatingStatus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AirConditionerOperatingStatus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChangeOperatingStatus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChangeOperatingStatusOff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cleaner001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guide001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guide002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LightIntensity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LightSensor001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LightSensor002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OFF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Painting00001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Painting00002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Painting00003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Painting00004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RoomA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RoomB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Security001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Security002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Statues00001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Statues00002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Statues00003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Statues00004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visitor001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visitor002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visitor003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visitor004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#action0001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#action0002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cashier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#changeOperatingTemperature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heatActuator001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heatActuator002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heatDeviceAirCond001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heatDeviceAirCond002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#humidity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mobileApp001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mobileApp002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mobileApp003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mobileApp004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#notification0001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#notification002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#observationTemp001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#observationTemp002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#observationTemp003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reception"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tempMeasurement001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tempMeasurment002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tempMeasurment003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tempSensor001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tempSensor002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#toilet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#visiting00001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#visiting0002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#visiting0003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#visiting0004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#20_oC"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#MuseumRoom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#RomHasExhibit"/>
+            <Class IRI="#MuseumExhibit"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MuseumRoom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#RoomHasSecurity"/>
+            <Class IRI="#Security"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MuseumRoom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#RoomHasStaf"/>
+            <Class IRI="#Staff"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Cashier"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cleaner"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Critical_Event"/>
+        <Class IRI="#measurment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guide"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manager"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MuseumExhibit"/>
+        <Class abbreviatedIRI="sosa:FeatureOfInterest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MuseumRoom"/>
+        <Class abbreviatedIRI="sosa:FeatureOfInterest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Painting"/>
+        <Class IRI="#MuseumExhibit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statues"/>
+        <Class IRI="#MuseumExhibit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#measurment"/>
+        <Class abbreviatedIRI="sosa:Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mobileApp"/>
+        <Class abbreviatedIRI="sosa:Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#visiting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#WasIn"/>
+            <Class IRI="#MuseumRoom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#visiting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_made_by"/>
+            <Class IRI="#Visitor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Painting"/>
+        <Class abbreviatedIRI="sosa:Actuation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Painting"/>
+        <Class abbreviatedIRI="ssn:Input"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Painting"/>
+        <Class abbreviatedIRI="ssn:Property"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Painting"/>
+        <Class abbreviatedIRI="ssn:System"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:ActuatableProperty"/>
+        <NamedIndividual IRI="#AirConditioner002operatingStatus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:ActuatableProperty"/>
+        <NamedIndividual IRI="#AirConditionerOperatingStatus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Procedure"/>
+        <NamedIndividual IRI="#ChangeOperatingStatus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Procedure"/>
+        <NamedIndividual IRI="#ChangeOperatingStatusOff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guide"/>
+        <NamedIndividual IRI="#Guide001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guide"/>
+        <NamedIndividual IRI="#Guide002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:ObservableProperty"/>
+        <NamedIndividual IRI="#LightIntensity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Sensor"/>
+        <NamedIndividual IRI="#LightSensor001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Sensor"/>
+        <NamedIndividual IRI="#LightSensor002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ssn:Input"/>
+        <NamedIndividual IRI="#OFF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ssn:Input"/>
+        <NamedIndividual IRI="#ON"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Painting"/>
+        <NamedIndividual IRI="#Painting00001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Painting"/>
+        <NamedIndividual IRI="#Painting00002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Painting"/>
+        <NamedIndividual IRI="#Painting00003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Painting"/>
+        <NamedIndividual IRI="#Painting00004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MuseumRoom"/>
+        <NamedIndividual IRI="#RoomA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MuseumRoom"/>
+        <NamedIndividual IRI="#RoomB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Security"/>
+        <NamedIndividual IRI="#Security001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Security"/>
+        <NamedIndividual IRI="#Security002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Statues"/>
+        <NamedIndividual IRI="#Statues00001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Statues"/>
+        <NamedIndividual IRI="#Statues00002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Statues"/>
+        <NamedIndividual IRI="#Statues00003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Statues"/>
+        <NamedIndividual IRI="#Statues00004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visitor"/>
+        <NamedIndividual IRI="#Visitor001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visitor"/>
+        <NamedIndividual IRI="#Visitor002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visitor"/>
+        <NamedIndividual IRI="#Visitor003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visitor"/>
+        <NamedIndividual IRI="#Visitor004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Actuation"/>
+        <NamedIndividual IRI="#action0001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Actuation"/>
+        <NamedIndividual IRI="#action0002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cashier"/>
+        <NamedIndividual IRI="#cashier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Procedure"/>
+        <NamedIndividual IRI="#changeOperatingTemperature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Actuator"/>
+        <NamedIndividual IRI="#heatActuator001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Actuator"/>
+        <NamedIndividual IRI="#heatActuator002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:FeatureOfInterest"/>
+        <NamedIndividual IRI="#heatDeviceAirCond001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:FeatureOfInterest"/>
+        <NamedIndividual IRI="#heatDeviceAirCond002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:ObservableProperty"/>
+        <NamedIndividual IRI="#humidity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mobileApp"/>
+        <NamedIndividual IRI="#mobileApp001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mobileApp"/>
+        <NamedIndividual IRI="#mobileApp002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mobileApp"/>
+        <NamedIndividual IRI="#mobileApp003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mobileApp"/>
+        <NamedIndividual IRI="#mobileApp004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#notification"/>
+        <NamedIndividual IRI="#notification0001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#notification"/>
+        <NamedIndividual IRI="#notification002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Observation"/>
+        <NamedIndividual IRI="#observationTemp001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Observation"/>
+        <NamedIndividual IRI="#observationTemp002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Observation"/>
+        <NamedIndividual IRI="#observationTemp003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MuseumRoom"/>
+        <NamedIndividual IRI="#reception"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:ObservableProperty"/>
+        <NamedIndividual IRI="#temp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#measurment"/>
+        <NamedIndividual IRI="#tempMeasurement001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#measurment"/>
+        <NamedIndividual IRI="#tempMeasurment002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#measurment"/>
+        <NamedIndividual IRI="#tempMeasurment003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Sensor"/>
+        <NamedIndividual IRI="#tempSensor001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="sosa:Sensor"/>
+        <NamedIndividual IRI="#tempSensor002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MuseumRoom"/>
+        <NamedIndividual IRI="#toilet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#visiting"/>
+        <NamedIndividual IRI="#visiting00001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#visiting"/>
+        <NamedIndividual IRI="#visiting0002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#visiting"/>
+        <NamedIndividual IRI="#visiting0003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#visiting"/>
+        <NamedIndividual IRI="#visiting0004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ssn:Input"/>
+        <NamedIndividual IRI="#20_oC"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ssn:isPropertyOf"/>
+        <NamedIndividual IRI="#AirConditioner002operatingStatus"/>
+        <NamedIndividual IRI="#heatDeviceAirCond002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ssn:isPropertyOf"/>
+        <NamedIndividual IRI="#AirConditionerOperatingStatus"/>
+        <NamedIndividual IRI="#heatDeviceAirCond001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ssn:implementedBy"/>
+        <NamedIndividual IRI="#ChangeOperatingStatus"/>
+        <NamedIndividual IRI="#heatActuator001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ssn:implementedBy"/>
+        <NamedIndividual IRI="#ChangeOperatingStatus"/>
+        <NamedIndividual IRI="#heatActuator002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ssn:implementedBy"/>
+        <NamedIndividual IRI="#ChangeOperatingStatusOff"/>
+        <NamedIndividual IRI="#heatActuator001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="ssn:implementedBy"/>
+        <NamedIndividual IRI="#ChangeOperatingStatusOff"/>
+        <NamedIndividual IRI="#heatActuator002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GuideIsResponsibleForRoom"/>
+        <NamedIndividual IRI="#Guide001"/>
+        <NamedIndividual IRI="#RoomA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GuideIsResponsibleForRoom"/>
+        <NamedIndividual IRI="#Guide002"/>
+        <NamedIndividual IRI="#RoomB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SensorLocatedInRoom"/>
+        <NamedIndividual IRI="#LightSensor001"/>
+        <NamedIndividual IRI="#RoomA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:observes"/>
+        <NamedIndividual IRI="#LightSensor001"/>
+        <NamedIndividual IRI="#LightIntensity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SensorLocatedInRoom"/>
+        <NamedIndividual IRI="#LightSensor002"/>
+        <NamedIndividual IRI="#RoomB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:observes"/>
+        <NamedIndividual IRI="#LightSensor002"/>
+        <NamedIndividual IRI="#LightIntensity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaintingIsLocatedInRoom"/>
+        <NamedIndividual IRI="#Painting00001"/>
+        <NamedIndividual IRI="#RoomA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaintingIsLocatedInRoom"/>
+        <NamedIndividual IRI="#Painting00002"/>
+        <NamedIndividual IRI="#RoomA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaintingIsLocatedInRoom"/>
+        <NamedIndividual IRI="#Painting00003"/>
+        <NamedIndividual IRI="#RoomA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PaintingIsLocatedInRoom"/>
+        <NamedIndividual IRI="#Painting00004"/>
+        <NamedIndividual IRI="#RoomA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RoomHasActuator"/>
+        <NamedIndividual IRI="#RoomB"/>
+        <NamedIndividual IRI="#heatActuator001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SecurityIsResponsibleForRoom"/>
+        <NamedIndividual IRI="#Security001"/>
+        <NamedIndividual IRI="#RoomA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SecurityIsResponsibleForRoom"/>
+        <NamedIndividual IRI="#Security002"/>
+        <NamedIndividual IRI="#RoomB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#StatuesIsLocatedInRoom"/>
+        <NamedIndividual IRI="#Statues00001"/>
+        <NamedIndividual IRI="#RoomB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#StatuesIsLocatedInRoom"/>
+        <NamedIndividual IRI="#Statues00002"/>
+        <NamedIndividual IRI="#RoomB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#StatuesIsLocatedInRoom"/>
+        <NamedIndividual IRI="#Statues00003"/>
+        <NamedIndividual IRI="#RoomB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#StatuesIsLocatedInRoom"/>
+        <NamedIndividual IRI="#Statues00004"/>
+        <NamedIndividual IRI="#RoomB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMobileApp"/>
+        <NamedIndividual IRI="#Visitor001"/>
+        <NamedIndividual IRI="#mobileApp001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#makes_a"/>
+        <NamedIndividual IRI="#Visitor001"/>
+        <NamedIndividual IRI="#visiting00001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMobileApp"/>
+        <NamedIndividual IRI="#Visitor002"/>
+        <NamedIndividual IRI="#mobileApp002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMobileApp"/>
+        <NamedIndividual IRI="#Visitor003"/>
+        <NamedIndividual IRI="#mobileApp003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMobileApp"/>
+        <NamedIndividual IRI="#Visitor004"/>
+        <NamedIndividual IRI="#mobileApp004"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:actsOnProperty"/>
+        <NamedIndividual IRI="#action0001"/>
+        <NamedIndividual IRI="#AirConditionerOperatingStatus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:hasFeatureOfInterest"/>
+        <NamedIndividual IRI="#action0001"/>
+        <NamedIndividual IRI="#heatDeviceAirCond001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:usedProcedure"/>
+        <NamedIndividual IRI="#action0001"/>
+        <NamedIndividual IRI="#ChangeOperatingStatus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:usedProcedure"/>
+        <NamedIndividual IRI="#action0001"/>
+        <NamedIndividual IRI="#changeOperatingTemperature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:actsOnProperty"/>
+        <NamedIndividual IRI="#action0002"/>
+        <NamedIndividual IRI="#AirConditioner002operatingStatus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:hasFeatureOfInterest"/>
+        <NamedIndividual IRI="#action0002"/>
+        <NamedIndividual IRI="#heatDeviceAirCond002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:usedProcedure"/>
+        <NamedIndividual IRI="#action0002"/>
+        <NamedIndividual IRI="#ChangeOperatingStatus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:usedProcedure"/>
+        <NamedIndividual IRI="#action0002"/>
+        <NamedIndividual IRI="#changeOperatingTemperature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:madeActuation"/>
+        <NamedIndividual IRI="#heatActuator001"/>
+        <NamedIndividual IRI="#action0001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ActuatorLocatedInRoom"/>
+        <NamedIndividual IRI="#heatActuator002"/>
+        <NamedIndividual IRI="#RoomA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:madeActuation"/>
+        <NamedIndividual IRI="#heatActuator002"/>
+        <NamedIndividual IRI="#action0002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MobileReceiveNotesAbout"/>
+        <NamedIndividual IRI="#mobileApp001"/>
+        <NamedIndividual IRI="#notification0001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MobileReceiveNotesAbout"/>
+        <NamedIndividual IRI="#mobileApp002"/>
+        <NamedIndividual IRI="#notification002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:hasResult"/>
+        <NamedIndividual IRI="#observationTemp001"/>
+        <NamedIndividual IRI="#tempMeasurement001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:observedProperty"/>
+        <NamedIndividual IRI="#observationTemp001"/>
+        <NamedIndividual IRI="#temp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:madeBySensor"/>
+        <NamedIndividual IRI="#observationTemp002"/>
+        <NamedIndividual IRI="#tempSensor002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:observedProperty"/>
+        <NamedIndividual IRI="#observationTemp002"/>
+        <NamedIndividual IRI="#temp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:hasResult"/>
+        <NamedIndividual IRI="#observationTemp003"/>
+        <NamedIndividual IRI="#tempMeasurment003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:observedProperty"/>
+        <NamedIndividual IRI="#observationTemp003"/>
+        <NamedIndividual IRI="#temp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ReceptionHasCashier"/>
+        <NamedIndividual IRI="#reception"/>
+        <NamedIndividual IRI="#cashier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:isResultOf"/>
+        <NamedIndividual IRI="#tempMeasurment002"/>
+        <NamedIndividual IRI="#observationTemp002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SensorLocatedInRoom"/>
+        <NamedIndividual IRI="#tempSensor001"/>
+        <NamedIndividual IRI="#RoomA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:madeObservation"/>
+        <NamedIndividual IRI="#tempSensor001"/>
+        <NamedIndividual IRI="#observationTemp001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:madeObservation"/>
+        <NamedIndividual IRI="#tempSensor001"/>
+        <NamedIndividual IRI="#observationTemp003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:observes"/>
+        <NamedIndividual IRI="#tempSensor001"/>
+        <NamedIndividual IRI="#temp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SensorLocatedInRoom"/>
+        <NamedIndividual IRI="#tempSensor002"/>
+        <NamedIndividual IRI="#RoomB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="sosa:observes"/>
+        <NamedIndividual IRI="#tempSensor002"/>
+        <NamedIndividual IRI="#temp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WasIn"/>
+        <NamedIndividual IRI="#visiting00001"/>
+        <NamedIndividual IRI="#RoomA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WasIn"/>
+        <NamedIndividual IRI="#visiting0002"/>
+        <NamedIndividual IRI="#RoomA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_made_by"/>
+        <NamedIndividual IRI="#visiting0002"/>
+        <NamedIndividual IRI="#Visitor002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WasIn"/>
+        <NamedIndividual IRI="#visiting0003"/>
+        <NamedIndividual IRI="#RoomB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_made_by"/>
+        <NamedIndividual IRI="#visiting0003"/>
+        <NamedIndividual IRI="#Visitor003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WasIn"/>
+        <NamedIndividual IRI="#visiting0004"/>
+        <NamedIndividual IRI="#RoomB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_made_by"/>
+        <NamedIndividual IRI="#visiting0004"/>
+        <NamedIndividual IRI="#Visitor004"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#status"/>
+        <NamedIndividual IRI="#ChangeOperatingStatus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#status"/>
+        <NamedIndividual IRI="#ChangeOperatingStatusOff"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobilePhone"/>
+        <NamedIndividual IRI="#Guide001"/>
+        <Literal>6969696969</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Guide001"/>
+        <Literal>spiros</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#surname"/>
+        <NamedIndividual IRI="#Guide001"/>
+        <Literal>papadogiannos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobilePhone"/>
+        <NamedIndividual IRI="#Guide002"/>
+        <Literal>6978786778</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Guide002"/>
+        <Literal>stratos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#surname"/>
+        <NamedIndividual IRI="#Guide002"/>
+        <Literal>Kampiotis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobilePhone"/>
+        <NamedIndividual IRI="#Visitor001"/>
+        <Literal>6969696978</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Visitor001"/>
+        <Literal>John</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#surname"/>
+        <NamedIndividual IRI="#Visitor001"/>
+        <Literal>papas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobilePhone"/>
+        <NamedIndividual IRI="#Visitor002"/>
+        <Literal>6970390699</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Visitor002"/>
+        <Literal>Lefteris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#surname"/>
+        <NamedIndividual IRI="#Visitor002"/>
+        <Literal>tsipis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobilePhone"/>
+        <NamedIndividual IRI="#Visitor003"/>
+        <Literal>6969696969</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Visitor003"/>
+        <Literal>Christos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#surname"/>
+        <NamedIndividual IRI="#Visitor003"/>
+        <Literal>Gianiotis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobilePhone"/>
+        <NamedIndividual IRI="#Visitor004"/>
+        <Literal>6932323232</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Visitor004"/>
+        <Literal>Jim</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#surname"/>
+        <NamedIndividual IRI="#Visitor004"/>
+        <Literal>Poris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+        <NamedIndividual IRI="#action0001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-25T15:30:00+02:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+        <NamedIndividual IRI="#action0002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-10T09:30:00+02:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobilePhone"/>
+        <NamedIndividual IRI="#cashier"/>
+        <Literal>691234567</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#cashier"/>
+        <Literal>Argirw</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#surname"/>
+        <NamedIndividual IRI="#cashier"/>
+        <Literal>Lafatzi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#temperature"/>
+        <NamedIndividual IRI="#changeOperatingTemperature"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">20.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+        <NamedIndividual IRI="#observationTemp001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-21T15:30:00+02:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+        <NamedIndividual IRI="#observationTemp002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-21T15:30:00+02:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+        <NamedIndividual IRI="#observationTemp003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-01T16:30:00+02:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:hasSimpleResult"/>
+        <NamedIndividual IRI="#tempMeasurement001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">15.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+        <NamedIndividual IRI="#tempMeasurement001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-21T15:30:00+02:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:hasSimpleResult"/>
+        <NamedIndividual IRI="#tempMeasurment002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">30.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+        <NamedIndividual IRI="#tempMeasurment002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-21T15:30:00+02:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:hasSimpleResult"/>
+        <NamedIndividual IRI="#tempMeasurment003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">28.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+        <NamedIndividual IRI="#tempMeasurment003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-01T14:30:00+02:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+        <NamedIndividual IRI="#visiting00001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T16:00:00+02:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+        <NamedIndividual IRI="#visiting0002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-15T16:00:00+02:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+        <NamedIndividual IRI="#visiting0003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-01T16:00:00+02:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="sosa:resultTime"/>
+        <NamedIndividual IRI="#visiting0004"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-01T16:00:00+02:00</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#PaintingIsLocatedInRoom"/>
+        <ObjectProperty IRI="#exhibitLocatedRoom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ReceptionHasCashier"/>
+        <ObjectProperty IRI="#RoomHasStaf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#RoomHasGuide"/>
+        <ObjectProperty IRI="#RoomHasStaf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#RoomHasPainting"/>
+        <ObjectProperty IRI="#RomHasExhibit"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#RoomHasSecurity"/>
+        <ObjectProperty IRI="#RoomHasStaf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#RoomHasStatues"/>
+        <ObjectProperty IRI="#RomHasExhibit"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#SecurityIsResponsibleForRoom"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#StatuesIsLocatedInRoom"/>
+        <ObjectProperty IRI="#exhibitLocatedRoom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_made_by"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#makes_a"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#turnsOff"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ActuatorLocatedInRoom"/>
+        <ObjectProperty IRI="#RoomHasActuator"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#CashierWorksInReception"/>
+        <ObjectProperty IRI="#ReceptionHasCashier"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#CriticalEventMadeBy"/>
+        <ObjectProperty IRI="#IsCriticalEvent"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GuideIsResponsibleForRoom"/>
+        <ObjectProperty IRI="#RoomHasGuide"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#PaintingIsLocatedInRoom"/>
+        <ObjectProperty IRI="#RoomHasPainting"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#RomHasExhibit"/>
+        <ObjectProperty IRI="#exhibitLocatedRoom"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#RoomHasSecurity"/>
+        <ObjectProperty IRI="#SecurityIsResponsibleForRoom"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#RoomHasStatues"/>
+        <ObjectProperty IRI="#StatuesIsLocatedInRoom"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#RoomHasVisits"/>
+        <ObjectProperty IRI="#WasIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#SensorLocatedInRoom"/>
+        <ObjectProperty IRI="#roomHasSensor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMobileApp"/>
+        <ObjectProperty IRI="#mobileAppBelongsTo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_made_by"/>
+        <ObjectProperty IRI="#makes_a"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#saw"/>
+        <ObjectProperty IRI="#wasΑttendedΒy"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#IsCriticalEvent"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#PaintingIsLocatedInRoom"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#exhibitLocatedRoom"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#CriticalEventMadeBy"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#wasΑttendedΒy"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ActuatorLocatedInRoom"/>
+        <Class abbreviatedIRI="sosa:Actuator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CashierWorksInReception"/>
+        <Class IRI="#Cashier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CriticalEventMadeBy"/>
+        <Class IRI="#Critical_Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GuideIsResponsibleForExhibit"/>
+        <Class IRI="#Guide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GuideIsResponsibleForRoom"/>
+        <Class IRI="#Guide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#InfrormationAbout"/>
+        <Class IRI="#notification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsCriticalEvent"/>
+        <Class IRI="#measurment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#MobileReceiveNotesAbout"/>
+        <Class IRI="#mobileApp"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PaintingIsLocatedInRoom"/>
+        <Class IRI="#Painting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ReceptionHasCashier"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RomHasExhibit"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RoomHasActuator"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RoomHasGuide"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RoomHasPainting"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RoomHasSecurity"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RoomHasStaf"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RoomHasStatues"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RoomHasVisits"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SecurityIsResponsibleForRoom"/>
+        <Class IRI="#Security"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#StatuesIsLocatedInRoom"/>
+        <Class IRI="#Statues"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#WasIn"/>
+        <Class IRI="#visiting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#exhibitLocatedRoom"/>
+        <Class IRI="#MuseumExhibit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMobileApp"/>
+        <Class IRI="#Visitor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_made_by"/>
+        <Class IRI="#visiting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#makes_a"/>
+        <Class IRI="#Visitor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mobileAppBelongsTo"/>
+        <Class IRI="#mobileApp"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#roomHasSensor"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#saw"/>
+        <Class IRI="#Visitor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#switchesOff"/>
+        <Class abbreviatedIRI="sosa:Actuator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#turnsOff"/>
+        <Class abbreviatedIRI="sosa:Actuator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#turnsOn"/>
+        <Class abbreviatedIRI="sosa:Actuator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#visitWasIn"/>
+        <Class IRI="#visiting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wasΑttendedΒy"/>
+        <Class IRI="#MuseumExhibit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ActuatorLocatedInRoom"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CashierWorksInReception"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CriticalEventMadeBy"/>
+        <Class IRI="#measurment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GuideIsResponsibleForExhibit"/>
+        <Class IRI="#MuseumExhibit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GuideIsResponsibleForRoom"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#InfrormationAbout"/>
+        <Class IRI="#MuseumExhibit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsCriticalEvent"/>
+        <Class IRI="#Critical_Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#MobileReceiveNotesAbout"/>
+        <Class IRI="#notification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PaintingIsLocatedInRoom"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ReceptionHasCashier"/>
+        <Class IRI="#Cashier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RomHasExhibit"/>
+        <Class IRI="#MuseumExhibit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RoomHasActuator"/>
+        <Class abbreviatedIRI="sosa:Actuator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RoomHasGuide"/>
+        <Class IRI="#Guide"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RoomHasPainting"/>
+        <Class IRI="#Painting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RoomHasSecurity"/>
+        <Class IRI="#Security"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RoomHasStaf"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RoomHasStatues"/>
+        <Class IRI="#Statues"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RoomHasVisits"/>
+        <Class IRI="#visiting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SecurityIsResponsibleForRoom"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#StatuesIsLocatedInRoom"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WasIn"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#exhibitLocatedRoom"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMobileApp"/>
+        <Class IRI="#mobileApp"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_made_by"/>
+        <Class IRI="#Visitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#makes_a"/>
+        <Class IRI="#visiting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mobileAppBelongsTo"/>
+        <Class IRI="#Visitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#roomHasSensor"/>
+        <Class abbreviatedIRI="sosa:Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#saw"/>
+        <Class IRI="#MuseumExhibit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#switchesOff"/>
+        <Class abbreviatedIRI="sosa:FeatureOfInterest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#turnsOff"/>
+        <Class abbreviatedIRI="sosa:FeatureOfInterest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#turnsOn"/>
+        <Class abbreviatedIRI="sosa:FeatureOfInterest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#visitWasIn"/>
+        <Class IRI="#MuseumRoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wasΑttendedΒy"/>
+        <Class IRI="#Visitor"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#temperature"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#saw_the_exhibit"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#status"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#test"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Critical_Event"/>
+                <Variable IRI="urn:swrl:var#C_e"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="sosa:resultTime"/>
+                <Variable IRI="urn:swrl:var#C_e"/>
+                <Variable IRI="urn:swrl:var#t"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:isResultOf"/>
+                <Variable IRI="urn:swrl:var#C_e"/>
+                <Variable IRI="urn:swrl:var#oT"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:madeBySensor"/>
+                <Variable IRI="urn:swrl:var#oT"/>
+                <Variable IRI="urn:swrl:var#tS"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#SensorLocatedInRoom"/>
+                <Variable IRI="urn:swrl:var#tS"/>
+                <Variable IRI="urn:swrl:var#R"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#RoomHasActuator"/>
+                <Variable IRI="urn:swrl:var#R"/>
+                <Variable IRI="urn:swrl:var#hA"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:madeActuation"/>
+                <Variable IRI="urn:swrl:var#hA"/>
+                <Variable IRI="urn:swrl:var#Ac"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:actsOnProperty"/>
+                <Variable IRI="urn:swrl:var#Ac"/>
+                <Variable IRI="urn:swrl:var#Pr"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="ssn:isPropertyOf"/>
+                <Variable IRI="urn:swrl:var#Pr"/>
+                <Variable IRI="urn:swrl:var#hDaC"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#turnsOn"/>
+                <Variable IRI="urn:swrl:var#hA"/>
+                <Variable IRI="urn:swrl:var#hDaC"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="sosa:resultTime"/>
+                <Variable IRI="urn:swrl:var#hDaC"/>
+                <Variable IRI="urn:swrl:var#t"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#status"/>
+                <Variable IRI="urn:swrl:var#hDaC"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#measurment"/>
+                <Variable IRI="urn:swrl:var#p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="sosa:hasSimpleResult"/>
+                <Variable IRI="urn:swrl:var#p"/>
+                <Variable IRI="urn:swrl:var#value"/>
+            </DataPropertyAtom>
+            <DataRangeAtom>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:float"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">28.0</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+                <Variable IRI="urn:swrl:var#value"/>
+            </DataRangeAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Critical_Event"/>
+                <Variable IRI="urn:swrl:var#p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#GuideIsResponsibleForRoom"/>
+                <Variable IRI="urn:swrl:var#G"/>
+                <Variable IRI="urn:swrl:var#R"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#RomHasExhibit"/>
+                <Variable IRI="urn:swrl:var#R"/>
+                <Variable IRI="urn:swrl:var#Ex"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#GuideIsResponsibleForExhibit"/>
+                <Variable IRI="urn:swrl:var#G"/>
+                <Variable IRI="urn:swrl:var#Ex"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMobileApp"/>
+                <Variable IRI="urn:swrl:var#V"/>
+                <Variable IRI="urn:swrl:var#Mapp"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#makes_a"/>
+                <Variable IRI="urn:swrl:var#V"/>
+                <Variable IRI="urn:swrl:var#Vis"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="sosa:resultTime"/>
+                <Variable IRI="urn:swrl:var#Vis"/>
+                <Variable IRI="urn:swrl:var#T"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#WasIn"/>
+                <Variable IRI="urn:swrl:var#Vis"/>
+                <Variable IRI="urn:swrl:var#R"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#exhibitLocatedRoom"/>
+                <Variable IRI="urn:swrl:var#Exh"/>
+                <Variable IRI="urn:swrl:var#R"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#MobileReceiveNotesAbout"/>
+                <Variable IRI="urn:swrl:var#Mapp"/>
+                <Variable IRI="urn:swrl:var#N"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:hasFeatureOfInterest"/>
+                <Variable IRI="urn:swrl:var#N"/>
+                <Variable IRI="urn:swrl:var#R"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#InfrormationAbout"/>
+                <Variable IRI="urn:swrl:var#N"/>
+                <Variable IRI="urn:swrl:var#Exh"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="sosa:resultTime"/>
+                <Variable IRI="urn:swrl:var#N"/>
+                <Variable IRI="urn:swrl:var#T"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#RomHasExhibit"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#E"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#RoomHasVisits"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#y"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="sosa:resultTime"/>
+                <Variable IRI="urn:swrl:var#y"/>
+                <Variable IRI="urn:swrl:var#time"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_made_by"/>
+                <Variable IRI="urn:swrl:var#y"/>
+                <Variable IRI="urn:swrl:var#A"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#saw"/>
+                <Variable IRI="urn:swrl:var#A"/>
+                <Variable IRI="urn:swrl:var#E"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#saw_the_exhibit"/>
+                <Variable IRI="urn:swrl:var#A"/>
+                <Variable IRI="urn:swrl:var#time"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:madeActuation"/>
+                <Variable IRI="urn:swrl:var#hA"/>
+                <Variable IRI="urn:swrl:var#aC"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="sosa:resultTime"/>
+                <Variable IRI="urn:swrl:var#aC"/>
+                <Variable IRI="urn:swrl:var#time"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:hasFeatureOfInterest"/>
+                <Variable IRI="urn:swrl:var#aC"/>
+                <Variable IRI="urn:swrl:var#hDa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:actsOnProperty"/>
+                <Variable IRI="urn:swrl:var#aC"/>
+                <Variable IRI="urn:swrl:var#AcOs"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="ssn:isPropertyOf"/>
+                <Variable IRI="urn:swrl:var#AcPs"/>
+                <Variable IRI="urn:swrl:var#hDa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:usedProcedure"/>
+                <Variable IRI="urn:swrl:var#aC"/>
+                <Variable IRI="urn:swrl:var#cOS"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#status"/>
+                <Variable IRI="urn:swrl:var#cOS"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:usedProcedure"/>
+                <Variable IRI="urn:swrl:var#aC"/>
+                <Variable IRI="urn:swrl:var#cOT"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#temperature"/>
+                <Variable IRI="urn:swrl:var#cOT"/>
+                <Variable IRI="urn:swrl:var#temp"/>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#turnsOff"/>
+                <Variable IRI="urn:swrl:var#hA"/>
+                <Variable IRI="urn:swrl:var#hDa"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#status"/>
+                <Variable IRI="urn:swrl:var#hDa"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#temperature"/>
+                <Variable IRI="urn:swrl:var#hDa"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="sosa:resultTime"/>
+                <Variable IRI="urn:swrl:var#hDa"/>
+                <Variable IRI="urn:swrl:var#time"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:madeActuation"/>
+                <Variable IRI="urn:swrl:var#hA"/>
+                <Variable IRI="urn:swrl:var#aC"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="sosa:resultTime"/>
+                <Variable IRI="urn:swrl:var#aC"/>
+                <Variable IRI="urn:swrl:var#time"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:hasFeatureOfInterest"/>
+                <Variable IRI="urn:swrl:var#aC"/>
+                <Variable IRI="urn:swrl:var#hDa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:actsOnProperty"/>
+                <Variable IRI="urn:swrl:var#aC"/>
+                <Variable IRI="urn:swrl:var#AcOs"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="ssn:isPropertyOf"/>
+                <Variable IRI="urn:swrl:var#AcPs"/>
+                <Variable IRI="urn:swrl:var#hDa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:usedProcedure"/>
+                <Variable IRI="urn:swrl:var#aC"/>
+                <Variable IRI="urn:swrl:var#cOS"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#status"/>
+                <Variable IRI="urn:swrl:var#cOS"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="sosa:usedProcedure"/>
+                <Variable IRI="urn:swrl:var#aC"/>
+                <Variable IRI="urn:swrl:var#cOT"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#temperature"/>
+                <Variable IRI="urn:swrl:var#cOT"/>
+                <Variable IRI="urn:swrl:var#temp"/>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#turnsOn"/>
+                <Variable IRI="urn:swrl:var#hA"/>
+                <Variable IRI="urn:swrl:var#hDa"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#status"/>
+                <Variable IRI="urn:swrl:var#hDa"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#temperature"/>
+                <Variable IRI="urn:swrl:var#hDa"/>
+                <Variable IRI="urn:swrl:var#temp"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="sosa:resultTime"/>
+                <Variable IRI="urn:swrl:var#hDa"/>
+                <Variable IRI="urn:swrl:var#time"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
